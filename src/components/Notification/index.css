@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.list {
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+  padding: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  list-style: none;
+}
+
+.icon-container {
+  width: 10%;
+  align-self: flex-start;
+  margin-top: 15px;
+}
+
+.icon-status {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  color: #2dca73;
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  width: 70%;
+}
+
+.reaction-heading {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #2dca73;
+  margin-bottom: 5px;
+}
+
+.description {
+  font-family: Roboto;
+  font-size: 17px;
+  color: #475569;
+}
+
+.cancele-container {
+  width: 15%;
+  display: flex;
+  justify-content: right;
+  align-self: center;
+}
+
+.cancelle-icon {
+  width: 20px;
+  height: 20px;
+  color: #475569;
+}
+
+.icon-success {
+  color: #2dca73;
+}
+
+.icon-error {
+  color: #ff0b37;
+}
+.icon-warning {
+  color: #ffb800;
+}
+
+.icon-info {
+  color: #0f81e0;
+}
